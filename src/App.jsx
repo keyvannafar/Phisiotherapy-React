@@ -2,9 +2,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import "bootstrap-icons/font/bootstrap-icons.css"
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "animate.css";
+import Navbar from "./layout/Navbar/Navbar";
+import Footer from "./layout/Footer";
 function App() {
- <h1>Phisiotherapy Clinic</h1>
+  return (
+    <>
+      <Navbar />
+      <Footer />
+    </>
+  );
 }
 export default App;
