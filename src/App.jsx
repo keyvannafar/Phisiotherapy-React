@@ -6,6 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "animate.css";
 import store from "./redux/store";
 import Navbar from "./layout/Navbar/Navbar";
+import Slidersection from "./Slidersection/Slidersection";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Provider store={store}>
           <Navbar />
+          <Slidersection />
           <Footer />
         </Provider>
       </BrowserRouter>
