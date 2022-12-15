@@ -7,6 +7,7 @@ import "animate.css";
 import store from "./redux/store";
 import Navbar from "./layout/Navbar/Navbar";
 import Slidersection from "./Slidersection/Slidersection";
+import AboutSection from "./About";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Provider store={store}>
           <Navbar />
           <Slidersection />
+          <AboutSection />
           <Footer />
         </Provider>
       </BrowserRouter>

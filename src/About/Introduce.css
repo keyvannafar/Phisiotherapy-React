@@ -1,0 +1,26 @@
+.introduce{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    z-index: 1;
+}
+.int{
+    width: 60%;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    /* border-bottom: 1px solid #000; */
+}
+h2{
+    font-size: 32px !important;
+    color: #AF2D42 !important;
+}
+.int p{
+    font-size: 20px !important;
+    font-family: 'vazir', Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 900px){
+    .int{
+        width: 90% !important;
+    }
+}
+
+
