@@ -1,7 +1,7 @@
-import "./Sectiontwo.css";
-import OurServicesData from "../ServiceData";
+import "./ourServices.css";
 import { useSelector } from "react-redux/es/exports";
-import shape from "../images/shape/shape.png"
+import ServicesData from "./OurServices/ServicesData";
+import { servicesDataPersisch } from "./OurServices/ServicesData/dataServices";
 function OurServices() {
   const Language = useSelector((state) => state.LanChange.Language);
   return (
@@ -17,7 +17,9 @@ function OurServices() {
 
       <div className="container d-flex sectiontwo">
         <div className="twoleft">
-          <OurServicesData />
+          {servicesDataPersisch.map((item) => (
+            <ServicesData key={item.id} {...item} />
+          ))}
         </div>
       </div>
     </div>
