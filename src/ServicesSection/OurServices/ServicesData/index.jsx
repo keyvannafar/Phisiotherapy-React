@@ -1,4 +1,4 @@
-
+import "../../../ServicesSection/ourServices.css";
 import React from "react";
 import { useContext } from "react";
 import Procontext from "../../../Context/Procontext";

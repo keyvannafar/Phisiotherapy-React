@@ -11,6 +11,7 @@ import store from "./redux/store";
 import Navbar from "./layout/Navbar/Navbar";
 import Slidersection from "./Slidersection/Slidersection";
 import OurServices from "./ServicesSection";
+import Contact from "./Contact";
 import AboutSection from "./About";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
@@ -25,6 +26,7 @@ function App() {
             <Slidersection />
             <AboutSection />
             <OurServices />
+            <Contact />
             <Footer />
           </Provider>
         </Procontext.Provider>
