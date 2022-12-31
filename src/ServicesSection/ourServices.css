@@ -3,29 +3,45 @@
   flex-wrap: wrap;
   padding: 30px 0px;
   justify-content: space-between;
-  /* background-color: #003366;
-  background: linear-gradient(to left, #3a6596 0%, #003366 100%); */
+}
+.sidebar-button{
+  width: 100%;
+  background-color: #3a6596 !important;
 }
 .topsectwo {
   padding: 70px 10px 70px 10px;
   position: relative;
   z-index: 1;
-  /* background-color: #003366 !important; */
    background-color: #3a6596b9 !important;
    background-color: #cbcefcc4 !important;
 }
+.plusMinusDes{
+  background-color: #AF2D42;
+  font-size: 18px;
+  font-weight: bold;
+}
+.relatedTextShow{
+  min-width: 200px !important;
+  background-color: rgb(245, 242, 242);
+  padding: 10px 10px !important;
+}
+.servicesDes{
+  width: 1000px;
+  text-decoration: none;
+}
+
 h2 {
   font-size: 24px !important;
   color: #AF2D42 !important;
   
 }
 .twoleft {
-  width: 100%;
+  width: 100% !important;
   display: flex;
   flex-wrap: wrap;
 }
 .twoleft button {
-    width: 90%;
+    width: 100% !important;
     margin: auto;
   }
 .tworight {

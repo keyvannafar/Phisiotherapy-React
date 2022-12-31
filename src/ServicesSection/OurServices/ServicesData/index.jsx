@@ -27,8 +27,8 @@ function ServicesData({ id, text, image, getId, relatedtext }) {
             <i className="bi bi-check-lg"></i> {text}
           </h4>{" "}
           {show == false ? (
-            <div className="plusMinusDes">
-              <span onClick={ShowDes}>+</span>
+            <div className="plusMinusDes" onClick={ShowDes}>
+              <span>+</span>
             </div>
           ) : (
             <div className="plusMinusDes" onClick={ShowDes}>
@@ -37,19 +37,11 @@ function ServicesData({ id, text, image, getId, relatedtext }) {
           )}
         </button>
         {show == true ? (
-          <span
-            className={`bg-white p-3 servicesDes animate__animated animate__fadeInDown    ${
-              id == Pro ? "relatedTextShow" : "relatedTextShow"
-            }`}
-          >
+          <span className="servicesDes animate__animated animate__fadeInLeft">
             {relatedtext}
           </span>
         ) : (
-          <span
-            className={`bg-white p-3 servicesDes animate__animated animate__fadeOutDown   ${
-              id == Pro ? "relatedText" : "relatedText"
-            }`}
-          ></span>
+          ""
         )}
       </a>
     </>
