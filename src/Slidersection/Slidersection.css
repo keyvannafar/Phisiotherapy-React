@@ -6,8 +6,8 @@
     /* background-color: #3a6596;    */
     background-color: #3399cc;   
     padding: 0px 0px !important;
-    box-shadow: 5px 5px 35px 20px #383838;
-    z-index: 1;
+    box-shadow: 5px 5px 85px 5px #3a6596;
+    z-index: 99;
 }
 .slider-left{
     width: 50%;

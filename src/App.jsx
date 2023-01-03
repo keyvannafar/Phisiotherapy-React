@@ -11,8 +11,9 @@ import store from "./redux/store";
 import Navbar from "./layout/Navbar/Navbar";
 import Slidersection from "./Slidersection/Slidersection";
 import OurServices from "./ServicesSection";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 import AboutSection from "./About";
+import Sectionthree from "./Sectionthree";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Slidersection />
             <AboutSection />
             <OurServices />
+            <Sectionthree />
             <Contact />
             <Footer />
           </Provider>

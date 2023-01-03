@@ -2,38 +2,58 @@
   display: flex;
   flex-wrap: wrap;
   padding: 30px 0px;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #ffffff00;
+  z-index: 1;
 }
-.sidebar-button{
+.sidebar-button {
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.925) !important;
   background-color: #3a6596 !important;
+}
+.Services{
+  position: relative;
+  z-index: 1;
+}
+.imgCover{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .topsectwo {
   padding: 70px 10px 70px 10px;
   position: relative;
-  z-index: 1;
-   background-color: #3a6596b9 !important;
-   background-color: #cbcefcc4 !important;
+  z-index: 99;
+  background-color: rgb(173, 23, 23) !important;
 }
-.plusMinusDes{
-  background-color: #AF2D42;
+.plusMinusDes {
+  background-color: #af2d42;
   font-size: 18px;
   font-weight: bold;
 }
-.relatedTextShow{
+.relatedTextShow {
   min-width: 200px !important;
   background-color: rgb(245, 242, 242);
   padding: 10px 10px !important;
 }
-.servicesDes{
-  width: 1000px;
+.servicesDes {
+  width: 100%;
   text-decoration: none;
+  background-color: #fff;
+  text-decoration: none !important;
+  padding: 5px;
 }
-
+a {
+  text-decoration: none !important;
+  font-size: 16px;
+}
 h2 {
   font-size: 24px !important;
-  color: #AF2D42 !important;
-  
+  color: #af2d42 !important;
 }
 .twoleft {
   width: 100% !important;
@@ -41,14 +61,14 @@ h2 {
   flex-wrap: wrap;
 }
 .twoleft button {
-    width: 100% !important;
-    margin: auto;
-  }
+  width: 100% !important;
+  align-self: center;
+}
 .tworight {
   width: 70%;
 }
 .topsectwo {
-  background-color: #fff;
+  background-color: rgb(199, 27, 27);
 }
 @media only screen and (max-width: 700px) {
   .twoleft {
@@ -59,10 +79,12 @@ h2 {
   }
 }
 .spacer-img {
-  position: absolute;
-  bottom: 0;
+  position: fixed !important;
+  top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -99 !important;
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   .twoleft {

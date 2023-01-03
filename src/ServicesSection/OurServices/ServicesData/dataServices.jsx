@@ -66,6 +66,7 @@ export const servicesDataEnglisch = [
   {
     id: 7,
     text: "Treatment of sports injuries",
+    relatedtext:"keyvan",
   },
   {
     id: 6,

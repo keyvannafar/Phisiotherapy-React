@@ -2,7 +2,6 @@
   color: #af2d42 !important;
 }
 .nav-link {
-  color: #383838 !important;
   color: #225772 !important;
   padding: 16px !important;
   font-family: inherit;
@@ -28,16 +27,15 @@
 }
 .mainnav {
   border-bottom: 0px solid #ffffff;
-  background-color: #0f307d;
   background-color: #fff;
   box-shadow: 0px 0px 9px 2px #ffffff47;
   width: 100%;
   z-index: 1999;
 }
 .mainnavPer{
-  border-bottom: 0px solid #ffffff;
+  border-bottom: 0px solid #fff;
   background-color: #0f307d;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 9px 2px #ffffff47;
   width: 100%;
   z-index: 1999;

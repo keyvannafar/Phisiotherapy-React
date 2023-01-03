@@ -37,9 +37,11 @@ function ServicesData({ id, text, image, getId, relatedtext }) {
           )}
         </button>
         {show == true ? (
-          <span className="servicesDes animate__animated animate__fadeInLeft">
-            {relatedtext}
-          </span>
+          <div className="servicesDes ">
+            <div className="animate__animated animate__fadeInDown">
+              <span>{relatedtext}</span>
+            </div>
+          </div>
         ) : (
           ""
         )}

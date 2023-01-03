@@ -1,7 +1,7 @@
 .introduce{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.858);
     position: relative;
-    z-index: 1;
+    z-index: 99;
 }
 .int{
     width: 60%;
