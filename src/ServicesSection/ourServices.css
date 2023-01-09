@@ -8,32 +8,44 @@
 }
 .sidebar-button {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.925) !important;
-  background-color: #3a6596 !important;
+  background-color: #24335b00 !important;
+  border: none !important;
+  color: #071041 !important;
 }
-.Services{
+.sidebar-button:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+.Services {
   position: relative;
   z-index: 1;
 }
-.imgCover{
+.imgCover {
   position: absolute;
   width: 100vw;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0);
+  height: 100%;
   top: 0;
   left: 0;
   z-index: -1;
+  background-color: #e0f0f9;
+}
+h2{
+  border-bottom: none;
 }
 .topsectwo {
   padding: 70px 10px 70px 10px;
   position: relative;
   z-index: 99;
-  background-color: rgb(173, 23, 23) !important;
+  /* background-image: url(../images/slider/Untitled-paint-new3.jpg); */
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: cover;
 }
 .plusMinusDes {
-  background-color: #af2d42;
+  border: 1px solid #071041;
   font-size: 18px;
   font-weight: bold;
+  color: #8abf00 !important;
 }
 .relatedTextShow {
   min-width: 200px !important;
@@ -53,7 +65,7 @@ a {
 }
 h2 {
   font-size: 24px !important;
-  color: #af2d42 !important;
+  /* color: #af2d42 !important; */
 }
 .twoleft {
   width: 100% !important;
@@ -67,9 +79,6 @@ h2 {
 .tworight {
   width: 70%;
 }
-.topsectwo {
-  background-color: rgb(199, 27, 27);
-}
 @media only screen and (max-width: 700px) {
   .twoleft {
     width: 100%;
@@ -79,12 +88,13 @@ h2 {
   }
 }
 .spacer-img {
-  position: fixed !important;
+  background-attachment: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
-  z-index: -99 !important;
+  bottom: 0;
+  right: 0;
+  z-index: -2 !important;
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   .twoleft {
@@ -94,9 +104,6 @@ h2 {
     width: 100%;
   }
 }
-.spacer-img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+h4 {
+  font-weight: 100 !important;
 }

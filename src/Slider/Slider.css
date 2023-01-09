@@ -12,3 +12,15 @@
    z-index: -1;
    width: 100% !important;
 }
+.videoSlider{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.videoBox{
+   background-color: #24335bd8;
+   height: 100%;
+   position: relative;
+}

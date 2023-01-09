@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import "./Slidertext.css";
-
 function Slidertext() {
   const Language = useSelector((state) => state.LanChange.Language)
   return (
@@ -8,6 +7,8 @@ function Slidertext() {
       <div className="slidertext ">
         {Language == false ? (
           <div>
+            
+  
             <h1 className="fade_h1">فیزیوتراپی پردیس نفرزاده</h1> <br />
             <br />
             <p className="fade_text_slider">

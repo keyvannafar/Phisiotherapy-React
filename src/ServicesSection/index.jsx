@@ -9,13 +9,12 @@ function OurServices() {
   return (
     <div className="Services">
       <div className="topsectwo" id="services">
-        <img className="spacer-img" src={bg} />
         <div className="imgCover"></div>
         <h2 className="text-center">
           {Language == false ? (
-            <span className="text-white">خدمات ما</span>
+            <span>خدمات ما</span>
           ) : (
-            <span className="text-white">our services</span>
+            <span>our services</span>
           )}
         </h2>
 

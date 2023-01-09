@@ -1,5 +1,5 @@
-*{
-  font-family:'Vazir', Arial, sans-serif !important;
+* {
+  font-family: "Vazir", Arial, sans-serif !important;
 }
 body {
   margin: 0;
@@ -8,16 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- width: 100vw;
-  perspective: 1;
-  height: 100vh;
+  background-color: rgba(137, 15, 15, 0) !important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-h2 {
-  color: #ff6600 !important;
 }
 @font-face {
   font-family: Vazir;

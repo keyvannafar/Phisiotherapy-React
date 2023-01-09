@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import "./Introduce.css";
+import AboutPhoto from "../images/about/home_clinic_staff_bg.jpg"
 import shape from "../images/shape/shape.png";
 function AboutSection() {
   const Language = useSelector((state) => state.LanChange.Language);
@@ -8,8 +9,9 @@ function AboutSection() {
       <div className="container int">
         {Language == false ? (
           <>
-            <h2>درباره ما</h2>
+            <h2 className="aboutTitle">درباره ما</h2>
             <br />
+            <img className="aboutPhoto" src={AboutPhoto} />
             <p>
               پردیس نفرزاده هستم فیزیوتراپیست تیم ملی فوتبال بانوان و عضو هیات
               مدیره شاخه ورزشی انجمن فیزیوتراپی ایران. تیم من در موسسه

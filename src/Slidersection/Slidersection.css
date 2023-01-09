@@ -3,24 +3,33 @@
     flex-wrap: wrap;
     padding-bottom: 60px;
     position: relative;
-    /* background-color: #3a6596;    */
-    background-color: #3399cc;   
     padding: 0px 0px !important;
-    box-shadow: 5px 5px 85px 5px #3a6596;
     z-index: 99;
+    height: auto;
+}
+.cover{
+  background-color: #24335b58;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 .slider-left{
-    width: 50%;
-    /* background-color: #003366; */
-    background-color: #3399cc;
-    background-color: #3a6596;
-    
-    
-    /* background: linear-gradient(to left, #3a6596 0%, #3a6596 100%); */
+    width: 60%;
+    height: auto !important;
+    /* background-color: #24335bc2; */
+    background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+    /* background-image: url(../images/slider/bg7.jpg); */
+    background-size: cover;
+    background-position: center;
 }
 .slider-right{
-    width: 50%;
+    width: 40%;
+    height: 50vh !important;
     position: relative;
+    background-color: #24335bd8 !important;
 }
 .slider-right img{
     width: 100% !important;

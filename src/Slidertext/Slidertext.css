@@ -4,19 +4,19 @@
     vertical-align: text-bottom;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
-    /* background-color: #003366; */
-    background-color: #3a6596;
-    
+    transform: translateY(-45%);
+    background-color: #3a659600;
     letter-spacing: 1px;
     padding: 0px 10px;
-    z-index: 0;
+    z-index: 2;
 }
+
 h1{
     color: #fff;
+    border-bottom: 3px solid #8abf00;
     font-family: inherit;
     display: inline-block;
-    padding: 3px 3px !important;
+    padding: 3px 3px 10px 3px!important;
     
 }
 @keyframes bounceIn {
@@ -46,8 +46,8 @@ h1{
   cursor: pointer;
   min-width: 150px;
   border: none;
-  box-shadow: 0px 0px 2px 2px #fff;
-  background-color: #AF2D42 !important;
+  box-shadow: 0px 0px 3px 1px #fff;
+  background-color: #8abf00 !important;
 }
 .contactbtn:hover{
   box-shadow: none;

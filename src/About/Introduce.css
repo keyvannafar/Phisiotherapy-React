@@ -1,17 +1,22 @@
 .introduce{
-    background-color: rgba(255, 255, 255, 0.858);
+    background-color: rgba(255, 255, 255, 0);
     position: relative;
     z-index: 99;
+}
+.aboutPhoto{
+    width: 300px;
+    transform: translate(-1px);
 }
 .int{
     width: 60%;
     text-align: center;
     padding: 50px 0px 50px 0px;
-    /* border-bottom: 1px solid #000; */
 }
-h2{
+.aboutTitle{
     font-size: 32px !important;
-    color: #AF2D42 !important;
+    color: #24335be5 !important;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(220, 217, 217);
 }
 .int p{
     font-size: 20px !important;

@@ -1,3 +1,15 @@
+import image1 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image2 from "../../../images/portfolio/pardis-asia-coach.jpg";
+import image3 from "../../../images/portfolio/PARDIS-ASIA.jpg";
+import image4 from "../../../images/portfolio/pardis-clinic-1.jpg";
+import image5 from "../../../images/portfolio/pardis-clinic-2.jpg";
+import image6 from "../../../images/portfolio/pardis-clinic-3.jpg";
+import image7 from "../../../images/portfolio/pardis-clinic-4.jpg";
+import image8 from "../../../images/portfolio/pardis-clinic-5.jpg";
+import image9 from "../../../images/portfolio/pardis-clinic-6.jpg";
+import image10 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image11 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image12 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
 export const servicesDataPersisch = [
   {
     id: 1,
@@ -9,6 +21,7 @@ export const servicesDataPersisch = [
     id: 7,
     text: "درمان انواع آسیب های ورزشی",
     relatedtext: "1دردهای عضلانی",
+    image: image1,
   },
   {
     id: 6,
@@ -66,7 +79,7 @@ export const servicesDataEnglisch = [
   {
     id: 7,
     text: "Treatment of sports injuries",
-    relatedtext:"keyvan",
+    relatedtext: "keyvan",
   },
   {
     id: 6,
