@@ -1,0 +1,28 @@
+.qualityMain{
+     background-color: #e0f0f9;
+     background-color: #fff;
+     background-image: linear-gradient(#e0f0f9 to #fff);
+     background: linear-gradient(-45deg, #e0f0f9, #fff, #e0f0f9, #24335b);
+     background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+     
+}
+.coverImg{
+    width: 90%;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    z-index: 99;
+    transform: translateY(-50%);
+}
+h5{
+    color: #8abf00;
+    color: #fff;
+    color: #e0f0f9;
+     
+    font-size: 45px;
+    /* font-style: italic; */
+    font-weight: 900;
+}
+h6{
+    color: #8abf00;
+}

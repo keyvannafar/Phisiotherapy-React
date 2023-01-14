@@ -9,13 +9,12 @@
 .contact-form input{
     border-radius: 0px;
     border: none;
-    /* background-color: #003366; */
     background-color: #3a659600;
-    border: 1px solid #fff;
+    border: 1px solid #8abf00;
 }
 .contact-form textarea{
     border: none;
-    border: 1px solid #fff;
+    border: 1px solid #8abf00;
     border-radius: 0px;
     /* background-color: #003366; */
     background-color: #3a659600;
@@ -42,11 +41,9 @@
     position: relative;
 }
 .contactInfoBox{
-    /* box-shadow: 0px 0px 7px 1px #ff6633 !important; */
     border-radius: 5px;
     width: 100%;
     padding: 10px 0px;
-    /* background-color: #003366; */
     background-color: #3a659600;
     color: #fff;
 }
@@ -62,7 +59,6 @@
     transition: 0.5s;  
 }
 .contact-form-data{
-    /* background-color: #003366 !important; */
     background-color: #3a6596 !important;
     width: 100%;
     position: relative;

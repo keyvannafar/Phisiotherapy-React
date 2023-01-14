@@ -2,6 +2,7 @@
    margin: auto; 
    width: 100% !important; 
    margin: 0px 0px;
+   background-color: red;
 }
 .slide{
    margin-top: 20px !important;
@@ -9,8 +10,9 @@
 .slider-main{
    position: relative;
    margin: 0px 0px !important;
-   z-index: -1;
-   width: 100% !important;
+   z-index: 1;
+   width: 97% !important;
+   
 }
 .videoSlider{
     height: 100%;

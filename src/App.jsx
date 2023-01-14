@@ -17,6 +17,9 @@ import Sectionthree from "./Sectionthree";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
 import ReserveSystem from "./ReserveSystem";
+import ClinicInt from "./clinicInt";
+import Quality from "./ourQuality";
+
 function App() {
   const [Pro, setPro] = useState(1);
   return (
@@ -30,12 +33,11 @@ function App() {
               <Navbar />
               <div className="bg-image">
                 <Slidersection />
-
-                
                 <AboutSection />
-
                 <OurServices />
-                <ReserveSystem />
+                <ClinicInt />
+                {/* <ReserveSystem /> */}
+                <Quality />
                 <Sectionthree />
                 <Contact />
               </div>
