@@ -28,6 +28,7 @@
   left: 0;
   z-index: -1;
   background-color: #e0f0f900;
+  
 }
 h2{
   border-bottom: none;
@@ -46,6 +47,9 @@ h2{
   font-size: 18px;
   font-weight: bold;
   color: #8abf00 !important;
+  color: #fff !important;
+  background-color: #24335bef;
+  
 }
 .relatedTextShow {
   min-width: 200px !important;

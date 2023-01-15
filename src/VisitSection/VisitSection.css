@@ -1,10 +1,14 @@
-.qualityMain{
+.visitMain{
      background-color: #e0f0f9;
-     background-color: #fff;
+     /* background-color: #fff;
      background-image: linear-gradient(#e0f0f9 to #fff);
-     background: linear-gradient(-45deg, #e0f0f9, #fff, #e0f0f9, #24335b);
-     background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+     background: linear-gradient(-45deg, #e0f0f9, #fff, #e0f0f9, #24335b); */
+     /* background-image: url(../images/contact/home_clinic_counters_bg.jpg); */
      
+}
+.visitMain span{
+    font-size: 30px;
+    color: #24335bef
 }
 .coverImg{
     width: 70%;

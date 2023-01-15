@@ -19,7 +19,7 @@ import { Provider } from "react-redux";
 import ReserveSystem from "./ReserveSystem";
 import ClinicInt from "./clinicInt";
 import Quality from "./ourQuality";
-
+import VisitSection from "./VisitSection";
 function App() {
   const [Pro, setPro] = useState(1);
   return (
@@ -38,6 +38,7 @@ function App() {
                 <ClinicInt />
                 {/* <ReserveSystem /> */}
                 <Quality />
+                <VisitSection />
                 <Sectionthree />
                 <Contact />
               </div>

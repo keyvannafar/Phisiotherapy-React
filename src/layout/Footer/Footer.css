@@ -6,7 +6,9 @@
     background-color: white
 }
 .footer-text h5{
-   color: #AF2D42;
+   color: #8abf00;
+   font-size: 30px;
+   border-bottom: none;
    font-weight: bold;
 }
 .list-unstyled a{
@@ -17,8 +19,7 @@
 .list-unstyled span{
     width: 90%;
     direction: ltr !important;
-    left: 0;
-    
+    left: 0; 
     font-size: 14px;
     line-height: 30px;
     font-weight: bold;
@@ -43,7 +44,7 @@
     font-weight: bold;
 }
 .copyright-box{
-    border-top: 3px solid #AF2D42;
+    border-top: 3px solid #8abf00;
 }
 .footer p{
     font-size: 15px;

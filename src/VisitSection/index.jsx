@@ -1,6 +1,6 @@
 import React from "react";
 import "../Slider/Slider.css";
-import "./quality.css";
+import "./VisitSection.css";
 import slide1 from "../images/slides/slide1.jpg";
 import slide2 from "../images/slides/slide2.jpg";
 import slide3 from "../images/slides/slide3.jpg";
@@ -8,12 +8,25 @@ import slide4 from "../images/slides/slide4.jpg";
 import slide5 from "../images/other/visitCard.jpg";
 import Slide from "../images/portfolio/pardis-clinic-2.jpg";
 import Slider from "../Slider/Slider";
-export default function Quality() {
+export default function VisitSection() {
   return (
-    <div className="d-flex w-100 justify-content-around qualityMain">
+    <div className="d-flex w-100 justify-content-around visitMain">
+      <div className="w-50 pt-5 pb-5 d-flex justify-content-around">
+        <div className="d-flex justify-content-center align-items-center">
+          <div>
+            <span className="d-flex justify-content-center">
+              همه روزه با تعیین وقت قبلی
+            </span>
+
+            <p className="d-flex justify-content-center animate_animated animate__shakeY">
+              راه های تماس
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="w-50 d-flex justify-content-around pt-2 pb-2 position-relative">
-        <img className="coverImg" src={slide5} />
-        {/* <div
+        {/* <img className="coverImg" src={slide5} /> */}
+        <div
           id="carouselExampleCaptions"
           class="carousel slide slider-main"
           data-bs-ride="carousel"
@@ -83,31 +96,6 @@ export default function Quality() {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div> */}
-      </div>
-      <div className="w-50 pt-5 pb-5 d-flex justify-content-around">
-        <div className="d-flex justify-content-center align-items-center">
-          <div>
-            <h5 className="p-2"> !به صدای بدن خود توجه کنید</h5>
-            <br />
-            <h6 className="d-flex justify-content-center">
-              ...و با ما دردهایتان را مدیریت کنید
-            </h6>
-            <br />
-            {/* <span className="d-flex justify-content-center font-italic text-white">
-              همه روزه با تعیین وقت قبلی
-            </span>
-
-            <div className="d-flex justify-content-center border-1"> */}
-              {/* {" "}
-                  :راه های تماس <i class="bi bi-person-lines-fill"></i>
-                  <br /> */}
-              {/* <div className="d-flex justify-content-between"> */}
-              {/* <i class="bi bi-telephone-inbound text-white"></i> &nbsp;
-              <i class="bi bi-instagram text-white"></i> &nbsp;
-              <i class="bi bi-envelope text-white"></i> 
-            </div> */}
-          </div>
         </div>
       </div>
     </div>

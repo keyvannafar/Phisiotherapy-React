@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import "./Introduce.css";
-import AboutPhoto from "../images/about/home_clinic_staff_bg.jpg"
+import AboutPhoto from "../images/about/home_clinic_staff_bg1.jpg"
 import shape from "../images/shape/shape.png";
 function AboutSection() {
   const Language = useSelector((state) => state.LanChange.Language);
