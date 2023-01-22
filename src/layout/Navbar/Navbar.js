@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { NavData } from "./dataNavbar/DataNav";
 import { NavDataEnglisch } from "./dataNavbar/DataNav";
 import NavbarText from "./dataNavbar";
-import logo from "../../images/slides/logo-pardismin.jpg"
+import logo from "../../images/other/logo-pardish-larg1.png"
 function Navbar() {
   const setLanguage = useDispatch();
   const setId = useDispatch();

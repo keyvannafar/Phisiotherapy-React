@@ -20,6 +20,7 @@ import ReserveSystem from "./ReserveSystem";
 import ClinicInt from "./clinicInt";
 import Quality from "./ourQuality";
 import VisitSection from "./VisitSection";
+import Phisiophotos from "./instagram";
 function App() {
   const [Pro, setPro] = useState(1);
   return (
@@ -38,6 +39,7 @@ function App() {
                 <ClinicInt />
                 {/* <ReserveSystem /> */}
                 <Quality />
+                <Phisiophotos />
                 <VisitSection />
                 <Sectionthree />
                 <Contact />

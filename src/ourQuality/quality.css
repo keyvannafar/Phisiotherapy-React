@@ -4,7 +4,7 @@
      background-image: linear-gradient(#e0f0f9 to #fff);
      background: linear-gradient(-45deg, #e0f0f9, #fff, #e0f0f9, #24335b);
      background-image: url(../images/contact/home_clinic_counters_bg.jpg);
-     
+     padding: 40px 0px;
 }
 .coverImg{
     width: 70%;

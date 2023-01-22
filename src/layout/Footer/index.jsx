@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavDataEnglisch } from "../Navbar/dataNavbar/DataNav";
-import logoFooter from "../../images/other/logo-pardismin.jpg";
+import logoFooter from "../../images/other/logo-pardish-larg1.png";
 
 function Footer() {
   const Language = useSelector((state) => state.LanChange.Language);

@@ -9,7 +9,12 @@ function AboutSection() {
       <div className="container int">
         {Language == false ? (
           <>
-            <h2 className="aboutTitle">درباره ما</h2>
+            <div className="mainTitle">
+              <h2 className="aboutTitle">درباره ما</h2>
+              <div className="borderTwo"></div>
+              <div className="borderOne"></div>
+              <div className="borderTwo"></div>
+            </div>
             <br />
             <img className="aboutPhoto" src={AboutPhoto} />
             <p>

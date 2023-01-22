@@ -59,9 +59,15 @@ h2{
 .servicesDes {
   width: 100%;
   text-decoration: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-decoration: none !important;
   padding: 5px;
+  font-size: 14px;
+  color: #000;
+  line-height: 24px;
+  /* text-align: right; */
+  font-weight: 100;
+  
 }
 a {
   text-decoration: none !important;

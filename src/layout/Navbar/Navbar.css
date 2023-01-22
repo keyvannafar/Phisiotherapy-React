@@ -24,6 +24,10 @@
 }
 .logo{
   display: block;
+  width: 50px;
+}
+.logo img{
+  width: 100px;
 }
 .mainnav {
   border-bottom: 0px solid #ffffff;
