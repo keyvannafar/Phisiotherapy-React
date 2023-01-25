@@ -14,7 +14,6 @@ function Sectionthree() {
         )}
       </h2>
       <div className="container d-flex sectionthree">
-        {/* <div className="threeleft"> */}
         <div className="row row-cols-1  row-cols-md-3 row-cols-lg-3 g-4 mt-2 ">
           {dataImage.map((item) => (
             <ImageData key={item.id} {...item} />
@@ -22,7 +21,6 @@ function Sectionthree() {
         </div>
       </div>
     </div>
-    //  </div>
   );
 }
 

@@ -96,10 +96,9 @@ export default function Quality() {
               </div>
             ) : (
               <div>
-                <h5 className="p-2">
+                <h5 className="p-2 justify-content-center">
                   {" "}
-                  Pay attention to the sound of your 
-                  body!
+                  Pay attention to the sound of your body!
                 </h5>
                 <br />
                 <h6 className="d-flex justify-content-center">

@@ -33,6 +33,7 @@ function AboutSection() {
           <>
             <h2>About us</h2>
             <br />
+            <img className="aboutPhoto" src={AboutPhoto} />
             <p>
               I am Pardis Neferzadeh, a physiotherapist of the women's national
               football team and a member of the team Directorate of Sports

@@ -1,10 +1,9 @@
-import React from 'react'
-import "./phisiophotos.css"
-import photo1 from "../images/phisioPhotos/phisio1.jpg"
-import photo2 from "../images/phisioPhotos/phisio2.jpg"
-import photo3 from "../images/phisioPhotos/phisio3.jpg"
-import insta from "../images/instagram/instagramShadow1.png"
+import React from "react";
+import { useSelector } from "react-redux";
+import "./phisiophotos.css";
+import insta from "../images/instagram/instagramShadow1.png";
 export default function Phisiophotos() {
+  const Language = useSelector((state) => state.LanChange.Language);
   return (
     <div className="position-relative">
       {/* <div className="cover"></div> */}
@@ -12,7 +11,25 @@ export default function Phisiophotos() {
       <div className="phisioimg ">
         <div>
           <img src={insta} />
-          <p>پاسخ به سوالات رایج شما در اینستاگرام ما</p>
+          {Language == false ? (
+            <>
+              <p>پاسخ به سوالات رایج شما در اینستاگرام ما</p>
+              <a href="https://instagram.com/pardisnafarzadehclinic_?igshid=YmMyMTA2M2Y=">
+                <button className="btn btn-primary mb-2 contactbtn">
+                  <i class="bi bi-instagram"></i> مارا در ایستاگرام دنبال کنید
+                </button>
+              </a>
+            </>
+          ) : (
+            <>
+              <p>Answers to your common questions on our Instagram</p>
+              <a href="https://instagram.com/pardisnafarzadehclinic_?igshid=YmMyMTA2M2Y=">
+                <button className="btn btn-primary mb-2 contactbtn">
+                  Follow us on Instagram <i class="bi bi-instagram"></i>
+                </button>
+              </a>
+            </>
+          )}
         </div>
       </div>
     </div>

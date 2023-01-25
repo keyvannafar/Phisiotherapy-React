@@ -1,21 +1,17 @@
 .phisioimg{
-    /* background-image: url(../images/phisioPhotos/bg4.jpg); */
-    background-size: cover;
-    height: 70vh;
-    background-attachment: fixed;
+    min-height: 70vh;
 }
 .phisioimg div{
     font-size: 32px;
-    align-self: center;
-    /* background-color: rgba(255, 255, 255, 0.482); */
-    color: #24335bef;
-    color: #8abf00;
+    text-align: center;
     color: #19223a;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
     padding: 20px 20px;
     border-radius: 7px;
+}
+.phisioimg p{
+    text-align: center;
+}
+.phisioimg img{
+    margin: auto;
+    text-align: center;
 }
