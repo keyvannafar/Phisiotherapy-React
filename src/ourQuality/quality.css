@@ -1,0 +1,27 @@
+.qualityMain {
+  background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.coverImg {
+  width: 70%;
+  z-index: 5;
+  z-index: 99;
+}
+@media only screen and (max-width: 600px) {
+  .sliderQuality {
+    width: 100%;
+  }
+  .textQuality {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .sliderQuality {
+    width: 50%;
+  }
+  .textQuality {
+    width: 50%;
+  }
+}

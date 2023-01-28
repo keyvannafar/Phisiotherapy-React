@@ -3,22 +3,21 @@
    width: 80%;
    position: relative;
    z-index: 2;
-   /* background-color: #003366 !important;  */
-   background-color: #3a6596 !important;
+   /* background-color: #3a6596 !important; */
+   
 }
 .contact-form input{
     border-radius: 0px;
     border: none;
-    /* background-color: #003366; */
-    background-color: #3a6596;
-    border: 1px solid #fff;
+    background-color: #3a659600;
+    border: 1px solid #8abf00;
 }
 .contact-form textarea{
     border: none;
-    border: 1px solid #fff;
+    border: 1px solid #8abf00;
     border-radius: 0px;
     /* background-color: #003366; */
-    background-color: #3a6596;;
+    background-color: #3a659600;
 }
 .contact-section{
     width: 100%;
@@ -26,10 +25,11 @@
     z-index: 999;
     background-color: #fff;
     margin-bottom: 0px !important;
+    background-image: url(../images/contact/home_clinic_counters_bg.jpg);
 }
 #contact{
     /* background-color: #003366 !important; */
-    background-color: #3a6596 !important;
+    background-color: #3a659600 !important;
     margin-bottom: 0px !important;
 }
 .fieldWarning{
@@ -41,27 +41,24 @@
     position: relative;
 }
 .contactInfoBox{
-    /* box-shadow: 0px 0px 7px 1px #ff6633 !important; */
     border-radius: 5px;
     width: 100%;
     padding: 10px 0px;
-    /* background-color: #003366; */
-    background-color: #3a6596;
+    background-color: #3a659600;
     color: #fff;
 }
 .contact-btn{
-    background-color: #AF2D42 !important;
+    background-color: #8abf00 !important;
     border: none;
     min-width: 150px;
     font-weight: bold;
-    box-shadow: 0px 0px 2px 2px #fff;
+    box-shadow: 0px 0px 3px 1px #fff;
 }
 .contact-btn:hover{
     box-shadow: none !important;
     transition: 0.5s;  
 }
 .contact-form-data{
-    /* background-color: #003366 !important; */
     background-color: #3a6596 !important;
     width: 100%;
     position: relative;

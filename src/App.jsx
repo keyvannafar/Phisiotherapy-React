@@ -1,4 +1,4 @@
-import { BrowserRouter,  } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import React from "react";
 import { useState } from "react";
 import "./App.css";
@@ -16,23 +16,39 @@ import AboutSection from "./About";
 import Sectionthree from "./Sectionthree";
 import Footer from "./layout/Footer";
 import { Provider } from "react-redux";
+import ReserveSystem from "./ReserveSystem";
+import ClinicInt from "./clinicInt";
+import Quality from "./ourQuality";
+import VisitSection from "./VisitSection";
+import Phisiophotos from "./instagram";
 function App() {
   const [Pro, setPro] = useState(1);
   return (
     <>
-      <BrowserRouter>
-        <Procontext.Provider value={[Pro, setPro]}>
-          <Provider store={store}>
-            <Navbar />
-            <Slidersection />
-            <AboutSection />
-            <OurServices />
-            <Sectionthree />
-            <Contact />
-            <Footer />
-          </Provider>
-        </Procontext.Provider>
-      </BrowserRouter>
+      <main className="main ">
+        <BrowserRouter>
+          <Procontext.Provider value={[Pro, setPro]}>
+            <Provider store={store}>
+              <section className="has-parallax"> </section>
+
+              <Navbar />
+              <div className="bg-image">
+                <Slidersection />
+                <AboutSection />
+                <OurServices />
+                <ClinicInt />
+                {/* <ReserveSystem /> */}
+                <Quality />
+                <Phisiophotos />
+                <VisitSection />
+                <Sectionthree />
+                <Contact />
+              </div>
+              <Footer />
+            </Provider>
+          </Procontext.Provider>
+        </BrowserRouter>
+      </main>
     </>
   );
 }

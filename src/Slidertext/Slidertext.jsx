@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import "./Slidertext.css";
-
 function Slidertext() {
   const Language = useSelector((state) => state.LanChange.Language)
   return (
@@ -11,12 +10,12 @@ function Slidertext() {
             <h1 className="fade_h1">فیزیوتراپی پردیس نفرزاده</h1> <br />
             <br />
             <p className="fade_text_slider">
-              <i class="bi bi-check-lg"></i>{" "}
-              <b>فیزیوتراپ تیم ملی فوتبال بانوان ایران</b>
+              فیزیوتراپ تیم ملی فوتبال بانوان ایران{" "}
+              <i class="bi bi-check-lg"></i>
             </p>
             <p className="fade_text_slider">
-              <i class="bi bi-check-lg"></i> میدان آرژانتین، خیابان قصیر، خیابان
-              احمدیان، پلاک 6
+              میدان آرژانتین، خیابان قصیر، خیابان احمدیان، پلاک 6
+              <i class="bi bi-check-lg"></i>
             </p>
             <p className="fade_text_slider"></p>
             <a className="nav-link" aria-current="page" href="#contact">

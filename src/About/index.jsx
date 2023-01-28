@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import "./Introduce.css";
+import AboutPhoto from "../images/about/home_clinic_staff_bg1.jpg"
 import shape from "../images/shape/shape.png";
 function AboutSection() {
   const Language = useSelector((state) => state.LanChange.Language);
@@ -8,8 +9,14 @@ function AboutSection() {
       <div className="container int">
         {Language == false ? (
           <>
-            <h2>درباره ما</h2>
+            <div className="mainTitle">
+              <h2 className="aboutTitle">درباره ما</h2>
+              <div className="borderTwo"></div>
+              <div className="borderOne"></div>
+              <div className="borderTwo"></div>
+            </div>
             <br />
+            <img className="aboutPhoto" src={AboutPhoto} />
             <p>
               پردیس نفرزاده هستم فیزیوتراپیست تیم ملی فوتبال بانوان و عضو هیات
               مدیره شاخه ورزشی انجمن فیزیوتراپی ایران. تیم من در موسسه
@@ -26,6 +33,7 @@ function AboutSection() {
           <>
             <h2>About us</h2>
             <br />
+            <img className="aboutPhoto" src={AboutPhoto} />
             <p>
               I am Pardis Neferzadeh, a physiotherapist of the women's national
               football team and a member of the team Directorate of Sports

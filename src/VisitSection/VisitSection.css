@@ -1,0 +1,33 @@
+.visitMain{
+     background-color: #e0f0f9;
+     padding: 40px 0px;
+     background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+}
+.visitMain span{
+    font-size: 30px;
+    color: #ffffffef
+}
+.coverImg{
+    width: 70%;
+    z-index: 5; 
+    z-index: 99;
+}
+h5{
+    color: #8abf00;
+    color: #fff;
+    color: #e0f0f9;
+     border-bottom:5px dashed #8abf00;
+    font-size: 45px;
+    font-weight: 900;
+}
+h6{
+    color: #fff;
+    padding-bottom: 5px;
+    
+}
+.mainTitle{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}

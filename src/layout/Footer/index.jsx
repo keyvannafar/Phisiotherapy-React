@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavDataEnglisch } from "../Navbar/dataNavbar/DataNav";
-import logoFooter from "../../images/other/logo-pardismin.jpg";
+import logoFooter from "../../images/other/logo-pardish-larg1.png";
 
 function Footer() {
   const Language = useSelector((state) => state.LanChange.Language);
@@ -122,7 +122,7 @@ function Footer() {
       </div>
       {Language == true ? (
         <div class="text-center p-3 copyright-box text-secondary">
-          © 2022 Copyright: pardinNafarzadehClinic
+          © 2023 Copyright: pardinNafarzadehClinic
           <p className="text-center text-secondary">
             Design & developed by:{" "}
             <a href="https://keyvannafarzadeh.com" className="designer">

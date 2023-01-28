@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { NavData } from "./dataNavbar/DataNav";
 import { NavDataEnglisch } from "./dataNavbar/DataNav";
 import NavbarText from "./dataNavbar";
-import logo from "../../images/slides/logo-pardismin.jpg"
+import logo from "../../images/other/logo-pardish-larg1.png";
 function Navbar() {
   const setLanguage = useDispatch();
   const setId = useDispatch();
@@ -99,13 +99,6 @@ function Navbar() {
                   ))}
             </div>
           </div>
-
-          {/* <a
-            className="text-white"
-            href="https://www.linkedin.com/in/mohammad-mehdi-nafarzadeh-028917240/"
-          >
-            <i class="bi bi-linkedin nav-link px-2 text-muted"></i>
-          </a> */}
           <a className="text-white logo" href="https://github.com/keyvannafar">
             <img src={logo} />
           </a>

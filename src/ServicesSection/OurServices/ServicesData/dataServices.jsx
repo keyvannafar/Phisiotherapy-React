@@ -1,14 +1,27 @@
+import image1 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image2 from "../../../images/portfolio/pardis-asia-coach.jpg";
+import image3 from "../../../images/portfolio/PARDIS-ASIA.jpg";
+import image4 from "../../../images/portfolio/pardis-clinic-1.jpg";
+import image5 from "../../../images/portfolio/pardis-clinic-2.jpg";
+import image6 from "../../../images/portfolio/pardis-clinic-3.jpg";
+import image7 from "../../../images/portfolio/pardis-clinic-4.jpg";
+import image8 from "../../../images/portfolio/pardis-clinic-5.jpg";
+import image9 from "../../../images/portfolio/pardis-clinic-6.jpg";
+import image10 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image11 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
+import image12 from "../../../images/portfolio/PARDIS-ASIA-2other.jpg";
 export const servicesDataPersisch = [
   {
     id: 1,
     text: "درمان دردهای عضلانی اسکلتی",
     relatedtext:
-      " اختلالات اسکلتی عضلانی (MSDs) صدمات یا درد در سیستم اسکلتی عضلانی انسان از جمله مفاصل، رباط ها، ماهیچه ها، اعصاب، تاندون ها و ساختارهایی هستند که از اندام ها، گردن و کمر حمایت می کنند. اختلالات اسکلتی ممکن است از یک فعالیت ناگهانی (مثلاً بلند کردن یک جسم سنگین) ناشی شوند، یا ممکن است از انجام همان حرکات، فشار مکرر مکرر، یا از قرار گرفتن مکرر در معرض نیرو، ارتعاش، یا وضعیت نامناسب ایجاد شوند. صدمات و درد در سیستم اسکلتی عضلانی ناشی از حوادث تروماتیک حاد مانند تصادف یا سقوط از جمله اختلالات اسکلتی عضلانی محسوب نمی شود. MSD می تواند بسیاری از قسمت های مختلف بدن از جمله قسمت فوقانی و پایین کمر، گردن، شانه ها و اندام ها (بازوها، پاها، پاها و دست ها) را تحت تاثیر قرار دهد.",
+      " اختلالات اسکلتی عضلانی (MSDs) صدمات یا درد در سیستم اسکلتی عضلانی انسان از جمله مفاصل، رباط ها، ماهیچه ها، اعصاب، تاندون ها و ساختارهایی هستند که از اندام ها، گردن و کمر حمایت می کنند. اختلالات اسکلتی ممکن است از یک فعالیت ناگهانی (مثلاً بلند کردن یک جسم سنگین) ناشی شوند، یا ممکن است از انجام همان حرکات، فشار مکرر مکرر، یا از قرار گرفتن مکرر در معرض نیرو، ارتعاش، یا وضعیت نامناسب ایجاد شوند. صدمات و درد در سیستم اسکلتی عضلانی ناشی از حوادث تروماتیک حاد مانند تصادف یا سقوط از جمله اختلالات اسکلتی عضلانی محسوب نمی شود. MSD می تواند بسیاری از قسمت های مختلف بدن از جمله قسمت فوقانی و پایین کمر، گردن، شانه ها و اندام ها (بازوها، پاها، پاها و دست ها) را تحت تاثیر قرار دهد",
   },
   {
     id: 7,
     text: "درمان انواع آسیب های ورزشی",
     relatedtext: "1دردهای عضلانی",
+    image: image1,
   },
   {
     id: 6,
@@ -66,7 +79,7 @@ export const servicesDataEnglisch = [
   {
     id: 7,
     text: "Treatment of sports injuries",
-    relatedtext:"keyvan",
+    relatedtext: "keyvan",
   },
   {
     id: 6,

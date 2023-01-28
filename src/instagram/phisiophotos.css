@@ -1,0 +1,17 @@
+.phisioimg{
+    min-height: 70vh;
+}
+.phisioimg div{
+    font-size: 32px;
+    text-align: center;
+    color: #19223a;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+.phisioimg p{
+    text-align: center;
+}
+.phisioimg img{
+    margin: auto;
+    text-align: center;
+}
