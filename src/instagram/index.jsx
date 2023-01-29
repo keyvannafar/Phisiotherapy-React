@@ -6,8 +6,6 @@ export default function Phisiophotos() {
   const Language = useSelector((state) => state.LanChange.Language);
   return (
     <div className="position-relative">
-      {/* <div className="cover"></div> */}
-
       <div className="phisioimg ">
         <div>
           <img src={insta} />

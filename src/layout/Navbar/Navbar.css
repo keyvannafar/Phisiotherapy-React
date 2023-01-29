@@ -4,8 +4,7 @@
 .nav-link {
   color: #24335b !important;
   padding: 15px !important;
-  font-family: inherit;
-  font-weight: bold;
+  font-size: 14px;
 }
 .dropdown-toggle{
     text-decoration: none !important;
@@ -27,11 +26,12 @@
   width: 50px;
 }
 .logo img{
-  width: 100px;
+  width: 70px;
 }
 .mainnav {
   border-bottom: 0px solid #ffffff;
   background-color: rgb(255, 255, 255) ;
+  
   width: 100%;
   z-index: 1999;
 }

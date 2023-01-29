@@ -219,7 +219,6 @@ function FormContact({
 
                 <li>
                   <i className="fas fa-phone mt-4 fa-2x"></i>
-                  <p>{/* <i class="bi bi-whatsapp "></i> {deutschTel} */}</p>
                   <p>
                     <i class="bi bi-telephone"></i> {deutschTel}
                   </p>
@@ -227,9 +226,7 @@ function FormContact({
                     <i class="bi bi-telephone"></i> {iranTel}
                   </p>
                 </li>
-
                 <li>
-                  {/* <i class="bi bi-envelope"></i> */}
                   <p>{emailPrivate}</p>
                 </li>
               </ul>

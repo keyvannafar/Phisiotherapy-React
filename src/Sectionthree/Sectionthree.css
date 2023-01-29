@@ -9,35 +9,15 @@
   height: auto;
 }
 .imagesPortfolio{
-  width: 90%;
-  position: relative;
+  width: 100%;
   transition: 0.5s;
 }
-.imagesPortfolio:hover {
-  padding-top: 70px;
- display: block !important;
-}
-.imagesPortfolio:hover .galleryCover{
-display: block;
-}
-.galleryCover{
-  width: 95%;
-  z-index: 999;
-  height: 100%;
-  bottom: 0;
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.605);
-  display: none;
-}
-
-
-/* .imagesPortfolio:hover{
+.imagesPortfolio:hover{
   position: relative;
   left: 5px;
   bottom: 5px;
   transition: 1s !important;
-} */
+}
 #about {
   position: relative;
   z-index: 3;

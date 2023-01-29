@@ -9,7 +9,7 @@ export default function Quality() {
   const Language = useSelector((state) => state.LanChange.Language);
   return (
     <div className="d-flex w-100 justify-content-around qualityMain">
-      <div className="w-50 d-flex justify-content-around pt-2 pb-2 position-relative">
+      <div className="d-flex justify-content-around pt-2 pb-2 position-relative sliderQuality">
         <div
           id="carouselExampleCaptions"
           class="carousel slide slider-main"
@@ -82,7 +82,7 @@ export default function Quality() {
           </button>
         </div>
       </div>
-      <div className="w-50 pt-5 pb-5 d-flex justify-content-around">
+      <div className=" pt-5 pb-5 d-flex justify-content-around textQuality">
         <div className="d-flex justify-content-center align-items-center">
           <div>
             {Language == false ? (

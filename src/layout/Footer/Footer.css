@@ -3,13 +3,17 @@
     margin: 0px !important;
     z-index: 999;
     position: relative;
-    background-color: white
+    background-color: white;
+}
+.rtlClass{
+    direction: rtl !important;
 }
 .footer-text h5{
    color: #8abf00;
-   font-size: 30px;
+   font-size: 28px;
    border-bottom: none;
    font-weight: bold;
+   
 }
 .list-unstyled a{
     color: #003366 !important;
@@ -18,7 +22,6 @@
 }
 .list-unstyled span{
     width: 90%;
-    direction: ltr !important;
     left: 0; 
     font-size: 14px;
     line-height: 30px;

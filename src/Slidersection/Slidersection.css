@@ -5,6 +5,7 @@
     position: relative;
     padding: 0px 0px !important;
     z-index: 99;
+    background-color: #3a659600;
     height: auto;
 }
 .cover{
@@ -19,17 +20,14 @@
 .slider-left{
     width: 60%;
     height: auto !important;
-    /* background-color: #24335bc2; */
-    background-image: url(../images/contact/home_clinic_counters_bg.jpg);
-    /* background-image: url(../images/slider/bg7.jpg); */
+    background-image: url(../images/contact/home_clinic_counters_bg.jpg); 
     background-size: cover;
     background-position: center;
 }
 .slider-right{
     width: 40%;
-    height: 50vh !important;
+    height: auto !important;
     position: relative;
-    background-color: #24335bd8 !important;
 }
 .slider-right img{
     width: 100% !important;
@@ -38,8 +36,6 @@
 @media only screen and (max-width:600px){
   .slider-left{
     width: 100% !important;
-    /* background-color: #0f307d; */
-    background-color: #3399cc;
     position: relative;
 }  
   .slider-right{

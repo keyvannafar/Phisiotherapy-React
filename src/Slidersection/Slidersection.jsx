@@ -4,7 +4,6 @@ import Slider from "../Slider/Slider"
 function Slidersection(){
     return(
         <div className="d-flex slider-flexbox " id="slider">
-          <div className="cover"></div>
             <div className="slider-left">
               <Slidertext />
             </div>

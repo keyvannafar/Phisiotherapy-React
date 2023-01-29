@@ -1,31 +1,30 @@
-.qualityMain{
-     background-color: #e0f0f9;
-     background-color: #fff;
-     background-image: linear-gradient(#e0f0f9 to #fff);
-     background: linear-gradient(-45deg, #e0f0f9, #fff, #e0f0f9, #24335b);
-     background-image: url(../images/contact/home_clinic_counters_bg.jpg);
-     padding: 40px;
+.qualityMain {
+  background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.coverImg{
-    width: 70%;
-
-    z-index: 5;
-    
-    z-index: 99;
-   
+.coverImg {
+  width: 70%;
+  z-index: 5;
+  z-index: 99;
 }
-h5{
-    color: #8abf00;
-    color: #fff;
-    color: #e0f0f9;
-     border-bottom:5px dashed #8abf00;
-    font-size: 45px;
-    /* font-style: italic; */
-    font-weight: 900;
-    text-align: center;
+.textQuality h5{
+  text-align: center;
 }
-h6{
-    color: #fff;
-    padding-bottom: 5px;
-    
+@media only screen and (max-width: 600px) {
+  .sliderQuality {
+    width: 100%;
+  }
+  .textQuality {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .sliderQuality {
+    width: 50%;
+  }
+  .textQuality {
+    width: 50%;
+  }
 }

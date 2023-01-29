@@ -5,7 +5,6 @@
   position: relative;
   top: 50%;
   transform: translateY(-45%);
-  background-color: #3a659600;
   letter-spacing: 1px;
   padding: 0px 10px;
   z-index: 2;
@@ -16,13 +15,6 @@
   flex-wrap: wrap;
   margin: auto;
   position: relative;
-}
-h1 {
-  color: #fff;
-  border-bottom:3px solid #8abf00;
-  font-family: inherit;
-  display: inline-block;
-  padding: 3px 3px 10px 3px !important;
 }
 .borderOne {
   border-bottom:3px solid rgb(115, 115, 115);
@@ -52,8 +44,12 @@ h1 {
 }
 .fade_text_slider {
   animation: bounceIn 2s;
-  font-family: inherit;
+  font-size: 14px;
   font-weight: 100 !important;
+  color: rgb(182, 181, 181);
+}
+.fade_text_slider i{
+  color: #8abf00
 }
 .contactbtn {
   position: relative;

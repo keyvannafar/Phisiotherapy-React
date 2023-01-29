@@ -2,10 +2,14 @@
      background-color: #e0f0f9;
      padding: 40px 0px;
      background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+     display: flex;
+     flex-wrap: wrap;
 }
 .visitMain span{
     font-size: 30px;
-    color: #ffffffef
+    color: #ffffffef;
+    display: inline-block;
+    border-bottom: 3px dashed #8abf00;
 }
 .coverImg{
     width: 70%;
@@ -13,16 +17,38 @@
     z-index: 99;
 }
 h5{
-    color: #8abf00;
-    color: #fff;
     color: #e0f0f9;
      border-bottom:5px dashed #8abf00;
     font-size: 45px;
-    /* font-style: italic; */
     font-weight: 900;
 }
 h6{
     color: #fff;
     padding-bottom: 5px;
     
+}
+.mainTitle{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+@media only screen and (max-width: 600px) {
+  .textVisit {
+    width: 100%;
+  }
+  .imgVisit {
+    width: 100%;
+  }
+  .textVisit span{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .textVisit {
+    width: 50%;
+  }
+  .imgVisit {
+    width: 50%;
+  }
 }

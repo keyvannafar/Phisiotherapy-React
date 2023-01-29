@@ -10,10 +10,11 @@ import image9 from "../../images/portfolio/pardis-clinic-6.jpg";
 import image10 from "../../images/portfolio/PARDIS-ASIA-2other.jpg";
 import image11 from "../../images/portfolio/PARDIS-ASIA-2other.jpg";
 import image12 from "../../images/portfolio/PARDIS-ASIA-2other.jpg";
+
 const dataImage = [
     {
         id: 1,
-        image: image1,
+        image: image1
     },
     {
         id: 2,

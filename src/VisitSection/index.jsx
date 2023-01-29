@@ -13,45 +13,41 @@ export default function VisitSection() {
   const Language = useSelector((state) => state.LanChange.Language);
   return (
     <div className="d-flex w-100 justify-content-around visitMain">
-      <div className="w-50 pt-5 pb-5 d-flex justify-content-around">
+      <div className="pt-5 pb-5 d-flex justify-content-around textVisit">
         <div className="d-flex justify-content-center align-items-center">
           <div>
             {" "}
             {Language == false ? (
               <>
-                <div className="mainTitle">
-                  <span className="d-flex justify-content-center">
-                    همه روزه با تعیین وقت قبلی
-                  </span>
-                  <div className="borderOne"></div>
-                  <div className="borderTwo"></div>
-                  <div className="borderOne"></div>
+                <div className="mainTitle d-flex w-100 justify-content-center">
+                  <span className="">همه روزه با تعیین وقت قبلی</span>
+                  <div className="w-100">
+                    <a href="#contact">
+                      <button className="btn btn-primary mb-2 contactbtn mt-3">
+                        راه های تماس <i class="bi bi-person-lines-fill"></i>
+                      </button>
+                    </a>
+                  </div>
                 </div>
-
-                <p className="d-flex justify-content-center animate_animated animate__shakeY">
-                  راه های تماس
-                </p>
               </>
             ) : (
               <>
-                <div className="mainTitle">
-                  <span className="d-flex justify-content-center">
-                    Every day by appointment
-                  </span>
-                  <div className="borderOne"></div>
-                  <div className="borderTwo"></div>
-                  <div className="borderOne"></div>
+                <div className="mainTitle d-flex justify-content-center">
+                  <span className="">Every day by appointment</span>
+                  <div className="w-100">
+                    <a href="#contact">
+                      <button className="btn btn-primary mb-2 contactbtn mt-3">
+                        Contact us <i class="bi bi-person-lines-fill"></i>
+                      </button>
+                    </a>
+                  </div>
                 </div>
-
-                <p className="d-flex justify-content-center animate_animated animate__shakeY">
-                  راه های تماس
-                </p>
               </>
             )}
           </div>
         </div>
       </div>
-      <div className="w-50 d-flex justify-content-around pt-2 pb-2 position-relative">
+      <div className="d-flex justify-content-around pt-2 pb-2 position-relative imgVisit">
         <img className="coverImg" src={slide5} />
       </div>
     </div>

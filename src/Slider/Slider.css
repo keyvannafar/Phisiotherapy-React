@@ -16,13 +16,10 @@
 }
 .videoSlider{
     height: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    width: 100%;
 }
 .videoBox{
-   background-color: #24335bd8;
+   background-color: #071041e0;
    height: 100%;
    position: relative;
 }

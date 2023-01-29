@@ -23,7 +23,7 @@ function ServicesData({ id, text, image, getId, relatedtext }) {
           }`}
           onClick={() => getId(id)}
         >
-          <h4 className="">
+          <h4>
             <i className="bi bi-check-lg"></i> {text}
           </h4>{" "}
           {show == false ? (

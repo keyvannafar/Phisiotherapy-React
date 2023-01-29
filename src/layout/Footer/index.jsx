@@ -16,7 +16,11 @@ function Footer() {
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 footer-text">
             <h5 class="text-uppercase mb-3">
-              {Language == true ? <span>Links</span> : <span>لینک ها</span>}
+              {Language == true ? (
+                <span>Links</span>
+              ) : (
+                <span>لینک ها</span>
+              )}
             </h5>
 
             <ul class="list-unstyled mb-0 text-white p-0">
@@ -113,9 +117,6 @@ function Footer() {
             )}
           </div>
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0 p-5 footerLogo">
-            {/* <h5 class=" footer-title-about-h5">
-              H<span className="footer-title-about">i</span>vad
-            </h5> */}
             <img src={logoFooter} />
           </div>
         </div>
