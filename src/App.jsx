@@ -30,18 +30,16 @@ function App() {
           <Procontext.Provider value={[Pro, setPro]}>
             <Provider store={store}>
               <section className="has-parallax"> </section>
-
               <Navbar />
               <div className="bg-image">
                 <Slidersection />
                 <AboutSection />
                 <OurServices />
                 <ClinicInt />
-                {/* <ReserveSystem /> */}
                 <Quality />
                 <Phisiophotos />
                 <VisitSection />
-                <Sectionthree />
+                  <Sectionthree />
                 <Contact />
               </div>
               <Footer />

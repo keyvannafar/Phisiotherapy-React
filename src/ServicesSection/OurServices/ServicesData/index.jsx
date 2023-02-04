@@ -23,16 +23,18 @@ function ServicesData({ id, text, image, getId, relatedtext }) {
           }`}
           onClick={() => getId(id)}
         >
+          <i class="bi bi-grip-horizontal"></i>
+          <br />
           <h4>
             <i className="bi bi-check-lg"></i> {text}
           </h4>{" "}
           {show == false ? (
             <div className="plusMinusDes" onClick={ShowDes}>
-              <span>+</span>
+              <i class="bi bi-chevron-down"></i>
             </div>
           ) : (
             <div className="plusMinusDes" onClick={ShowDes}>
-              <span>-</span>
+              <i class="bi bi-chevron-up"></i>
             </div>
           )}
         </button>
