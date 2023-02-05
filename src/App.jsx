@@ -25,11 +25,9 @@ function App() {
   const [Pro, setPro] = useState(1);
   return (
     <>
-      <main className="main ">
         <BrowserRouter>
           <Procontext.Provider value={[Pro, setPro]}>
             <Provider store={store}>
-              <section className="has-parallax"> </section>
               <Navbar />
               <div className="bg-image">
                 <Slidersection />
@@ -46,7 +44,6 @@ function App() {
             </Provider>
           </Procontext.Provider>
         </BrowserRouter>
-      </main>
     </>
   );
 }

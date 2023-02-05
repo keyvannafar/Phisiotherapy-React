@@ -12,54 +12,51 @@ import image11 from "../../images/portfolio/PARDIS-ASIA-2other.jpg";
 import image12 from "../../images/portfolio/PARDIS-ASIA-2other.jpg";
 
 const dataImage = [
-    {
-        id: 1,
-        image: image1
-    },
-    {
-        id: 2,
-        image: image2
-    },
-    {
-        id: 3,
-        image: image3
-    },
-    {
-        id: 4,
-        image: image4
-    },
-    {
-        id: 5,
-        image: image5
-    },
-    {
-        id: 6,
-        image: image6
-    },
-    {
-        id: 7,
-        image: image7
-    },
-    {
-        id: 8,
-        image: image8
-    },
-    {
-        id: 9,
-        image: image9
-    },
-    // {
-    //     id: 10,
-    //     image: image10
-    // },
-    // {
-    //     id: 11,
-    //     image: image11
-    // },
-    // {
-    //     id: 12,
-    //     image: image12
-    // },
-]
+  {
+    id: 10,
+    image: image1,
+    animTime: "first",
+  },
+  {
+    id: 2,
+    image: image2,
+    animTime: "second",
+  },
+  {
+    id: 3,
+    image: image3,
+    animTime: "third",
+  },
+  {
+    id: 4,
+    image: image4,
+    animTime: "first",
+  },
+  {
+    id: 5,
+    image: image5,
+    animTime: "second",
+  },
+  {
+    id: 6,
+    image: image6,
+    animTime: "third",
+  },
+  {
+    id: 7,
+    image: image7,
+    animTime: "first",
+  },
+  {
+    id: 8,
+    image: image8,
+    animTime: "second",
+  },
+  {
+    id: 9,
+    image: image9,
+    animTime: "third",
+  },
+];
 
 export default dataImage;

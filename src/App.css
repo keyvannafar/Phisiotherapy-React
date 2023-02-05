@@ -41,10 +41,6 @@ h2 {
     transform: rotate(360deg);
   }
 }
-main {
-  height: 100vh;
-  overflow-y: auto;
-}
 .bg-image {
   background-image: url(./images/bodyBg/home_clinic_staff_bg.jpg);
   background-position: center;

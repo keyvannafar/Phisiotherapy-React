@@ -19,7 +19,7 @@ function Slidertext() {
             </p>
             <p className="fade_text_slider"></p>
             <a className="nav-link" aria-current="page" href="#contact">
-              <button className="btn btn-primary mb-2 contactbtn">
+              <button className="btn btn-primary mb-2 contactbtn animate__animated animate__bounce animate__repeat-3">
                 تماس با ما
               </button>
             </a>

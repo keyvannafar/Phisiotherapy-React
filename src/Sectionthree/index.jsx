@@ -13,12 +13,12 @@ function Sectionthree() {
           <span>Photo Gallery</span>
         )}
       </h2>{" "}
-      <div className="container d-flex sectionthree"> 
-          <div className="row row-cols-1  row-cols-md-3 row-cols-lg-3 g-4 mt-2 ">
-            {dataImage.map((item) => (
-              <ImageData key={item.id} {...item} />
-            ))}
-          </div>
+      <div className="container d-flex sectionthree">
+        <div className="row row-cols-1  row-cols-md-3 row-cols-lg-3 g-4 mt-2 justify-content-center">
+          {dataImage.map((item) => (
+            <ImageData key={item.id} {...item} />
+          ))}
+        </div>
       </div>
     </div>
   );
