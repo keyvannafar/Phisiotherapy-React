@@ -2,9 +2,7 @@
    padding: 70px 10px 70px 10px;
    width: 80%;
    position: relative;
-   z-index: 2;
-   /* background-color: #3a6596 !important; */
-   
+   z-index: 1 !important;   
 }
 .contact-form input{
     border-radius: 0px;
@@ -16,19 +14,17 @@
     border: none;
     border: 1px solid #8abf00;
     border-radius: 0px;
-    /* background-color: #003366; */
     background-color: #3a659600;
 }
 .contact-section{
     width: 100%;
     position: relative;
-    z-index: 999;
     background-color: #fff;
     margin-bottom: 0px !important;
     background-image: url(../images/contact/home_clinic_counters_bg.jpg);
+    z-index: 1 !important;
 }
 #contact{
-    /* background-color: #003366 !important; */
     background-color: #3a659600 !important;
     margin-bottom: 0px !important;
 }

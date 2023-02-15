@@ -1,6 +1,6 @@
 .introduce{
     position: relative;
-    z-index: 99;
+    z-index: 1 !important;
 }
 .aboutPhoto{
     width: 300px;

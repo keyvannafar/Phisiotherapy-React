@@ -56,7 +56,7 @@ function FormContact({
   return (
     <>
       <div className="contact-section" id="contact">
-        <section className=" container contact-form">
+        <section className="container contact-form">
           <h2 className="h1-responsive font-weight-bold text-center my-4 text-white">
             {title}
           </h2>

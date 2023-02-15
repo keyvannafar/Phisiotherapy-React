@@ -53,7 +53,7 @@
 }
 .contactbtn {
   position: relative;
-  z-index: 3 !important;
+  z-index: 1 !important;
   cursor: pointer;
   min-width: 150px;
   border: none;

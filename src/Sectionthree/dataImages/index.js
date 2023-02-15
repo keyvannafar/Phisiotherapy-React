@@ -1,23 +1,37 @@
 import React, { useState } from "react";
 import LazyLoad from "react-lazyload";
-function ImageData({ image, animTime }) {
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+function ImageData({ image, animTime, id }) {
   const [zoom, setZoom] = useState(true);
+    
+  const setLightBox = useDispatch();
   const lightBox = () => {
-    zoom == true ? setZoom(false) : setZoom(true);
+    window.location.replace(`#${id}`);
+    setZoom(!zoom);
+    zoom == true 
+      ? setLightBox({ type: "lightBoxOn" })
+      : setLightBox({ type: "lightBoxOff" });
+    
   };
   return (
-    <div className="d-flex galleryImage">
+    <div className="d-flex galleryImage" id={id}>
       <LazyLoad offset={-100}>
         <div className="zoomImages d-flex animate__animated animate__zoomIn animate__delay-1s ">
-          <i class="bi bi-zoom-in text-white"></i>
+          <i class="bi bi-zoom-in text-white" onClick={lightBox}></i>
         </div>
-        <img
+        <div
           className={`${
-            zoom == true ? "imagesPortfolio" : "imagesPortfolioLightBox"
-          }  animate__animated animate__slideInUp justify-content-center ${animTime}`}
-          src={image}
-          onClick={lightBox}
-        />
+            zoom == true ? "" : "imagesPortfolioLightBoxBackground"
+          }`}
+        >
+          <img
+            className={`${
+              zoom == true ? "imagesPortfolio" : "imagesPortfolioLightBox"
+            }  animate__animated animate__slideInUp justify-content-center ${animTime}`}
+            src={image}
+          />
+        </div>
       </LazyLoad>
     </div>
   );

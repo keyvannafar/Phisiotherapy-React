@@ -31,15 +31,14 @@
 .mainnav {
   border-bottom: 0px solid #ffffff;
   background-color: rgb(255, 255, 255) ;
-  
   width: 100%;
-  z-index: 1999;
+  z-index: 2;
 }
 .mainnavPer{
   border-bottom: 0px solid #fff;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  z-index: 1999;
+  z-index: 2;
   direction: rtl;
 }
 .navbar {

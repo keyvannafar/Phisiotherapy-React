@@ -13,8 +13,7 @@
 }
 .coverImg{
     width: 70%;
-    z-index: 5; 
-    z-index: 99;
+    z-index: 1; 
 }
 h5{
     color: #e0f0f9;

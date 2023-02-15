@@ -39,6 +39,7 @@ const dataImage = [
   },
   {
     id: 6,
+
     image: image6,
     animTime: "third",
   },
